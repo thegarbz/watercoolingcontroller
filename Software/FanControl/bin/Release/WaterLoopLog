@@ -1,0 +1,5 @@
+Radiator Temp,Flow Rate L/h,Case Bottom Temp,Case Top Temp,Radiator Fans,Case Top Fans,Always-On Fan,VRM Temp,CPU Temp,CPU Utilisation,GPU Temp,GPU Utilisation,System Temp
+34.2,176,32.0,34.8,0,0,30,57,49,3,39,2,49
+34.2,176,32.0,34.8,0,0,30,57,46,5,39,0,49
+34.2,176,31.9,34.7,0,0,30,57,46,5,39,0,49
+34.2,176,31.9,34.7,0,0,30,57,46,6,39,0,49
