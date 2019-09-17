@@ -39,5 +39,5 @@ If designing a custom circuit based around the ATSAMD21 it is possible to forgo 
 Hookup Diagram / Schematic
 --------------------------
 
-A complete schematic is available [here](/Schematic Prints.pdf)
+A complete schematic is available [here](Schematic%20Prints.pdf)
 
