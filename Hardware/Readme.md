@@ -32,12 +32,12 @@ This controller requires multiple voltages from the PC powersupply.
 - 5V   - Required for LCD Display / Arduino Powersupply*
 - 3.3V - Required for microcontroller / SD Card / Thermistors / and Fan PWM signals
 
-* The Arduino Zero board similar boards from Sparkfun include onboard 3.3V regulators capable of powering all 3.3V parts in the controller. If a compatible board is used than this project can be powered from a standard computer Molex connector providing 12V and 5V supplies. 
+The Arduino Zero board similar boards from Sparkfun include onboard 3.3V regulators capable of powering all 3.3V parts in the controller. If a compatible board is used than this project can be powered from a standard computer Molex connector providing 12V and 5V supplies. 
 
 If designing a custom circuit based around the ATSAMD21 it is possible to forgo the 3.3V regulator and power the 3.3V devices directly from the a standard computer SATA-Power connector. 
 
 Hookup Diagram / Schematic
 --------------------------
 
-A complete schamtic is available [here](Schematic Prints.pdf)
+A complete schematic is available [here](/Schematic Prints.pdf)
 
