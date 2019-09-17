@@ -1,5 +1,6 @@
 Arduino Watercooler Fan Controller
 ==================================
+![Image of Controller Display](Pictures/CTL-History.jpg "Controller Display")
 
 This project aims to provide a customisable temperature control unit for a typical watercooled computer. It is based on popular Arduino platform, specifically ARM M0+ micro controllers, and a commonly available LCD display. 
 
@@ -50,9 +51,9 @@ Getting Started
 #### Important note: ####
 *I am not a professional programmer.* The software and firmware setup is specific to the system for which the unit was built. You *WILL* require a basic understanding of electronics (connecting an Arduino and some wires), and basic understanding of C and/or C# programming to make this suit your system. 
 
-In the default configuration the fan controller can run stand-alone, however it will be in "alarm" condition if the computer software is not running. For true stand-alone operation the firmware will need to have the alarm conditions on CPU, GPU, and VRM temperature disabled otherwise all fans will run 30% faster than specified in their curves. 
-
-Following are some of the things which you may need / want to customise. Items in italic are computer specific and will need to be changed or an error will be shown:
+#### Wait? No Binaries? ####
+No. The odds of this working on your system without some modification of code are very slim.
+The following are some of the things which you may need / want to customise. Items in italic are computer specific and will need to be changed or an error will be shown:
 - Graphics
   - Motherboard schematic graphic
   - Location and choice of sensors
@@ -64,7 +65,7 @@ Following are some of the things which you may need / want to customise. Items i
   - *Libre Hardware Monitor lookup array for system temperatures*
 
 #### Hardware ####
-This unit will require a compatible micro controller (ARM M0 based Arduino or similar), a compatible display, a microSD card reader if not included in the display, and some wiring for fans. The unit will require 5V and 12V (from a Molex connector) and may require the addition of 3.3V (SATA connector) if the micro controller board does not already include an on board regulator. 
+This unit will require a compatible micro controller (ARM M0 based Arduino or similar), a compatible display, a microSD card reader if not included in the display, and some wiring for fans. The unit will require 5V and 12V (from a Molex connector) and may require the addition of 3.3V (SATA connector) if the micro controller board does not already include an on board regulator.
 
 #### Firmware ####
 This unit is based on Arduino. While it will compile and load with the Arudino IDE it is recommended instead to use the more powerful and programmer friendly PlatformIO. 
