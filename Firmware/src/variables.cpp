@@ -25,16 +25,16 @@ uint8_t fanbias = 30;
  * Alarm Condition. 1 = noalarm, 2 = noalarm(unack), 3 = alarm, 4 = alarm(unack)
  */
 uint16_t values[MAX_VALUES][5] = {
-    {0, 0, 65, V_TYPE_DEG, A_OK_NOACK},    //VRM Temp
-    {0, 0, 65, V_TYPE_DEG, A_OK_NOACK},    //CPU Temp
+    {0, 0, 998, V_TYPE_DEG, A_OK_NOACK},    //VRM Temp
+    {0, 0, 998, V_TYPE_DEG, A_OK_NOACK},    //CPU Temp
     {0, 0, 998, V_TYPE_PERC, A_OK_NOACK},  //CPU Utilisation %
-    {0, 0, 65, V_TYPE_DEG, A_OK_NOACK},    //GPU Temp
+    {0, 0, 998, V_TYPE_DEG, A_OK_NOACK},    //GPU Temp
     {0, 0, 998, V_TYPE_PERC, A_OK_NOACK},  //GPU Utilisation %
-    {0, 0, 55, V_TYPE_DEG, A_OK_NOACK},    //Sys Temp
+    {0, 0, 998, V_TYPE_DEG, A_OK_NOACK},    //Sys Temp
     {0, 0, 450, V_TYPE_DECIDEG, A_OK_NOACK}, //Case Bottom Temp (Local Thermistor 3) Deci-degrees
     {0, 0, 450, V_TYPE_DECIDEG, A_OK_NOACK}, //Case Top Temp (Local Thermistor 2) Deci-degrees
     {0, 5, 998, V_TYPE_PERC, A_OK_NOACK},    //Case Top Fan (Local Fan Output 2) 0-100% PWM
-    {0, 0, 400, V_TYPE_DECIDEG, A_OK_NOACK}, //Rad Temp (Local Thermistor 1) Deci-degrees
+    {0, 0, 450, V_TYPE_DECIDEG, A_OK_NOACK}, //Rad Temp (Local Thermistor 1) Deci-degrees
     {0, 5, 998, V_TYPE_PERC, A_OK_NOACK},    //Rad Fan (Local Fan Output 1) 0-100% PWMM
     {0, 5, 998, V_TYPE_PERC, A_OK_NOACK},    //Always On Fan (Local Fan Output 3) 0-100% PWMM
     {0, 0, 100, V_TYPE_FLOW, A_OK_NOACK}     //Flow (Local Fan 3 used as input PWM)

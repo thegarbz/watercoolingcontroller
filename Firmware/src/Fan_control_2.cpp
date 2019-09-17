@@ -24,7 +24,7 @@ void setup(void)
 {
   for (int i=0; i < GRAPH_LENGTH; i++)
     history[i] = 1;
-  pinMode(11, INPUT_PULLUP); //D2 Interrupt for PWM measurement
+  pinMode(11, INPUT_PULLUP); //D11 Interrupt for PWM measurement
   attachInterrupt(digitalPinToInterrupt(11), pin11Interrupt, FALLING);
   delay(2000);
   System_Init();

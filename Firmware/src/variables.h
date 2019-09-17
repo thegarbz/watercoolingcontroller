@@ -29,7 +29,7 @@
 #define V_ALARM 2
 #define V_TYPE 3
 #define V_INALARM 4
-#define V_DISCONNECT 999
+#define V_DISCONNECT 997
 
 //Values Array V_TYPE 
 #define V_TYPE_DEG 1
