@@ -1,4 +1,5 @@
-Software==========================
+Software
+==========================
 ![Image of the Software interface](../Pictures/FC-Software-Status.jpg "Software Interface") 
 
 Overview
@@ -6,7 +7,7 @@ Overview
 
 The software interface for PC allows for monitoring and changing settings on the fan controller. It is also responsible for transmitting data from the PC to the fan controller for display e.g. CPU / GPU temperature. 
 
-**Important Note:** This software uses hard coded arrays from OpenHardwareMonitor. To use this software and read out computer related information will require you to use the debugger and select the correct values as described below under "Open Hardware Monitor". Failure to do so will result in 0 being displayed for CPU / GPU / VRM temperature and load. 
+**Important Note:** This software uses hard coded arrays from OpenHardwareMonitor. To use this software and read out computer related information will require you to use the debugger and select the correct values as described below under "Open Hardware Monitor". Failure to do so will result in 0 being displayed for CPU / GPU / VRM temperature and load at best or array overflows at worst. 
 
 #### Features ####
 - Integrates with LibreHardwaremonitor.lib to read PC monitored values (e.g. CPU / GPU / VRM Temp)
@@ -19,6 +20,7 @@ The software interface for PC allows for monitoring and changing settings on the
 - Changes the alarm setpoints on the fan controller. 
 - Displays diagnostic information of the communications link.
 - Outputs CSV data to a temporary file in the user's temp folder (Fanctl.tmp) for reading with Rainmeter (see Rainmeter meter folder for details)
+![Image of the Rainmeter](../Pictures/Rainmeter.jpg "Rainmeter") 
 
 Design Explaination
 -------------------
