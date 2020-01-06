@@ -20,6 +20,7 @@ The software interface for PC allows for monitoring and changing settings on the
 - Changes the alarm setpoints on the fan controller. 
 - Displays diagnostic information of the communications link.
 - Outputs CSV data to a temporary file in the user's temp folder (Fanctl.tmp) for reading with Rainmeter (see Rainmeter meter folder for details)
+
 ![Image of the Rainmeter](../Pictures/Rainmeter.jpg "Rainmeter") 
 
 Design Explaination
