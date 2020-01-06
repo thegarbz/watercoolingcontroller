@@ -41,3 +41,5 @@ Hookup Diagram / Schematic
 
 A complete schematic is available [here](Schematic%20Prints.pdf)
 
+An Arduino hookup is also available
+![Arduino Hookup](Arduino-Schematic.jpg "Arduino-Schematic") 
