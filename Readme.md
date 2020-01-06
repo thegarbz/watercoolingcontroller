@@ -28,7 +28,7 @@ The following are some of the features of this Fan Control unit:
   - System graphical overview showing all component temperatures
   - Critical information overview showing current operating mode and alarm state
   - History Graph of water temperature showing operating mode, temperature and flow
-
+![Image of Controller Display](Pictures/CTL-Overview.jpg "Controller Display Overview") ![Image of Controller Display](Pictures/CTL-Schem-A.jpg "Controller Display Schematic with alarm")
 - Computer software interface written in C#
 - Interfaces with Libre Hardware Monitor (Open Hardware Monitor fork) to read system information
 - Transmits system variables to Fan Controller for display and alarm control

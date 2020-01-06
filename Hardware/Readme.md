@@ -11,7 +11,7 @@ This project is written for the ATSAMD21 ARM Cortex M0+ using Arduino. It will r
 - [Sparkfun SAMD21 Dev](https://www.sparkfun.com/products/13672)
 - [Avdweb's pre-flashed ATSAMD21 chips](https://www.avdweb.nl/arduino/samd21/sam-d21)
 
-The display hardware is a 3.5" 480x320 LCD display from [Waveshare](https://www.waveshare.com/product/modules/oleds-lcds/arduino-lcd/3.5inch-tft-touch-shield.htm). Alternative displays can be used but doing so will require re-writing the display code.
+The display hardware is a 3.5" 480x320 LCD display from [Waveshare](https://www.waveshare.com/product/oleds-lcds/arduino-lcd/3.5inch-tft-touch-shield.htm). Alternative displays can be used but doing so will require re-writing the display code.
 
 This control unit *requires* the use of an SD card as the ATSAMD21 has no internal writable flash. The Waveshare display above includes an SD card socket which shares the SPI bus with the display and has a separate Chip Select line connected to the Arduino. If a different display is used an SD card will need to be added to the project. 
 
